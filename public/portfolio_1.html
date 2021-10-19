@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./src/resets.css" />
+    <link rel="stylesheet" type="text/css" href="./src/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bebas+Neue:400,900|Raleway:400,500,600,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"
+      async
+    ></script>
+    <script src="src/index.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="https://uk8dp.csb.app/#about">About</a>
+        <a href="https://uk8dp.csb.app/#Skills">Skills</a>
+        <a href="https://uk8dp.csb.app/#Projects">Projects</a>
+        <a href="https://uk8dp.csb.app/#Experience">Education & Experience</a>
+      </nav>
+    </header>
+    <section class="title-section">
+      <div class="title-img-div">
+        <img class="title-background" src="./assets/title-bg.png" />
+        <div class="title-img-h-div">
+          <h2>Hello, I am</h2>
+          <h1>Thomas Huynh</h1>
+          <h2>Full-Stack Web Developer</h2>
+        </div>
+      </div>
+      <div class="title-sidebar-div">
+        <img
+          class="title-sidebar-portfolio-img"
+          src="https://avatars2.githubusercontent.com/u/57205490?s=460&v=4"
+        />
+        <h3>THOMAS HUYNH</h3>
+        <h4 class="title-profession-h4">Full-Stack Web Developer</h4>
+        <img class="title-fullstack-icon" src="./assets/full_stack.png" />
+        <h4 class="title-email-h4">t_huynh927@yahoo.com</h4>
+        <h4>714-360-6524</h4>
+
+        <div class="title-portfolio-icons">
+          <a href="https://www.linkedin.com/in/thomas-huynh-76a64076/"
+            ><img class="title-linkedin-icon" src="./assets/linkedin.png"
+          /></a>
+          <a href="https://github.com/thomas-t-huynh"
+            ><img class="title-github-icon" src="./assets/github.png"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <section class="about-section">
+      <div class="container">
+        <h2 id="about">About me</h2>
+        <p>
+          Hello, I am a full-stack developer with a focus on building web
+          applications. I am highly curious about the nature of tech, and a
+          dilligent problem solver. Outside of coding, I love to hike the great
+          outdoors, play some volleyball, and climb boulders.
+        </p>
+      </div>
+    </section>
+    <section id="Skills" class="skills-section">
+      <div class="container">
+        <h2>Skills</h2>
+        <h3>My primary skills are...</h3>
+      </div>
+      <div class="skills-div">
+        <div class="skills-card">
+          <img src="./assets/react.png" />
+          <h3>React</h3>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/nodejs.png" />
+          <h3>Node</h3>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/javascript.png" />
+          <h3>JavaScript</h3>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/python.png" />
+          <h3>Python</h3>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/css.png" />
+          <h3>CSS</h3>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/html.png" />
+          <h3>HTML</h3>
+        </div>
+      </div>
+      <div class="container">
+        <h3>I am familiar with...</h3>
+      </div>
+      <div class="skills-div">
+        <div class="skills-card">
+          <img src="./assets/git.png" />
+          <h3>Git</h3>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/redux.png" />
+          <h3>Redux</h3>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/mongodb.png" />
+          <h3>MongoDB</h3>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/firebase.png" />
+          <h3>Firebase</h3>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/django.png" />
+          <h3>Django</h3>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/graphql.png" />
+          <h3>GraphQL</h3>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/postgresql.png" />
+          <h3>PostgreSQL</h3>
+        </div>
+        <div class="skills-card">
+          <img src="./assets/postman.png" />
+          <h3>Postman</h3>
+        </div>
+      </div>
+    </section>
+    <section id="Projects" class="projects-section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-div">
+          <h3>Weather App</h3>
+          <h4>Web Application</h4>
+          <h4>Tools used: NodeJS, Express, Handlebars JS, HTML, CSS</h4>
+
+          <ul>
+            <div class="projects-icons">
+              <a href="https://github.com/thomas-t-huynh/weather-app-2"
+                ><img src="./assets/github.png"
+              /></a>
+              <!-- <a href="#"><img src="./assets/link.png"/></a> -->
+            </div>
+            <li>
+              A web-based application that could reveal the current week weather
+              forecast of a desired location.
+            </li>
+            <li>
+              The app uses the Google Maps Geolocation API to find user's typed
+              location. The coordinates from the geolocator is then used to pull
+              weather data from the Dark Sky API
+            </li>
+            <li>
+              The web page is fully responsive in desktop, tablet, and mobile
+              views.
+            </li>
+          </ul>
+        </div>
+        <div class="projects-div">
+          <h3>Blue Fin</h3>
+          <h4>Web Application</h4>
+          <h4>
+            Tools used: JavaScript, Python, Django, PostgreSQL, Jinja, HTML,
+            Bootstrap CSS
+          </h4>
+          <ul>
+            <div class="projects-icons">
+              <a href="https://github.com/thomas-t-huynh/house-site"
+                ><img src="./assets/github.png"
+              /></a>
+              <!-- <a href="#"><img src="./assets/link.png"/></a> -->
+            </div>
+            <li>
+              A Zillow clone web app. Users can create their accounts complete
+              with authentication, and search for homes eiter using a search bar
+              with filters or an integrated Google Map Platform.
+            </li>
+            <li>
+              Pulled home data from a PostgreSQL database, and then incorporated
+              Google Maps Platform to enhance the users experience of home
+              searching.
+            </li>
+            <li>
+              Utilized the Django Framework administrative features so both
+              client and administrators could login equipped with their own
+              privelleges. Client could message realtors, and in doing so would
+              also automatically send an e-mail to the realtor.
+            </li>
+          </ul>
+        </div>
+        <div class="projects-div">
+          <h3>Stratus Beats</h3>
+          <h4>Web Application</h4>
+          <h4>
+            Tools used: ReactJS, Django, GraphQL, Graphene, Apollo Client,
+            Insomnia
+          </h4>
+          <ul>
+            <div class="projects-icons">
+              <a href="https://github.com/thomas-t-huynh/react-app-tracks"
+                ><img src="./assets/github.png"
+              /></a>
+              <!-- <!-- <a href="#"><img src="./assets/link.png"/></a> -->
+              -->
+            </div>
+            <li>
+              A CRUD application that allows users to share their music online
+              with other users. The app features social interactions such as
+              likes and comments.
+            </li>
+            <li>
+              Hooked up Cloudinary upload API as the method of choice for users
+              to Store their music files. Authentication is required to use the
+              app and each user has their own profile complete with their list
+              of uploaded musics and a list of songs that they liked.
+            </li>
+            <li>
+              Client's cache is updated accordingly to improve loading speed.
+            </li>
+          </ul>
+        </div>
+        <div class="projects-div">
+          <h3>Muscle Pro</h3>
+          <h4>Web Application (UI Developer)</h4>
+          <h4>
+            Tools used: LESS, HTML, React JS, Node JS
+          </h4>
+          <ul>
+            <div class="projects-icons">
+              <a href="https://github.com/WeightJournal20192/UI"
+                ><img src="./assets/github.png"
+              /></a>
+              <!-- <!-- <a href="#"><img src="./assets/link.png"/></a> -->
+              -->
+            </div>
+            <li>
+              A fitness tracking-app that helps users manage their workout.
+              Users can add workout schemes into the app and keep record of all
+              their set, reps, and weights from their training.
+            </li>
+            <li>
+              Users have to authenticate themselves to access their training
+              profiles. User information is saved over in the database to keep
+              track of all their training and their lifting plans.
+            </li>
+            <li>
+              Utilized LESS preprocessor to style the app. Followed
+              preprocessing principles and took advantage of features such as
+              mixins, variables, nesting, and imports.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="Experience" class="experience-section">
+      <div class="container">
+        <div class="experience-div">
+          <h2>Education</h2>
+          <div>
+            <h3>2019 - 2021</h3>
+            <h4>Lambda School</h4>
+            <p>Full-Stack Web Development & Computer Science</p>
+          </div>
+          <div>
+            <h3>2010 - 2015</h3>
+            <h4>California State University Fullerton</h4>
+            <p>Bachelor of Arts; Criminal Justice</p>
+          </div>
+        </div>
+        <div class="experience-div">
+          <h2>Experience</h2>
+          <div>
+            <h3>2018 - Present</h3>
+            <h4>House Foods America Corporation</h4>
+            <p>Purchasing Coordinator</p>
+          </div>
+          <div>
+            <h3>2013 - 2018</h3>
+            <h4>In-N-Out Burger</h4>
+            <p>Store Associate</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer-info">
+          <h3>Want to reach me?</h3>
+          <h4>t_huynh927@yahoo.com</h4>
+          <h4>714-360-6524</h4>
+        </div>
+        <div class="title-portfolio-icons">
+          <a href="https://www.linkedin.com/in/thomas-huynh-76a64076/"
+            ><img class="title-linkedin-icon" src="./assets/linkedin.png"
+          /></a>
+          <a href="https://github.com/thomas-t-huynh"
+            ><img class="title-github-icon" src="./assets/github.png"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
